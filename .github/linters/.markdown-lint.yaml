@@ -39,4 +39,17 @@ MD036: false                  # Emphasis used instead of a heading
 # Rules by tags #
 #################
 blank_lines: false  # Error on blank lines
-extends: ".markdown-lint.js"
+
+##########################
+## Custom Rules Section ##
+##########################
+custom_rules:
+  # Path to custom rule scripts
+  - path: './custom-rules/todo-rule.js'  # Add the path to your custom rule file
+
+##########################
+## Enable custom rules ##
+##########################
+rules:
+  # Enable your custom rules by name
+  'custom-rule-todo': true  # The name of your custom rule
