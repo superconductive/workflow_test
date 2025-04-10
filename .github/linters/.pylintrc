@@ -1,2 +1,2 @@
 [MASTER]
-load-plugins = custom_rules.myplugin
+init-hook='import os; os.system("echo BLBLABLABLA")'
