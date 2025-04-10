@@ -1,5 +1,6 @@
-plugins:
-  - "./src/"
-
-rules:
-  no-console: error
+eslint:
+  extends: "eslint:recommended"
+  plugins:
+    - "myplugin"  # Your custom plugin
+  rules:
+    "myplugin/log-hello": "warn"  # Rule from your custom plugin
