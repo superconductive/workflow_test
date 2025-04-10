@@ -1,6 +1,5 @@
 eslint:
-  extends: "eslint:recommended"
   plugins:
     - "myplugin"  # Your custom plugin
   rules:
-    "myplugin/log-hello": "warn"  # Rule from your custom plugin
+    "myplugin/log-hello": "warn"  # Enable the custom rule
