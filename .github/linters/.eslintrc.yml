@@ -1,0 +1,5 @@
+eslint:
+  plugins:
+    - "myplugin"  # Your custom plugin
+  rules:
+    "myplugin/log-hello": "warn"  # Enable the custom rule
